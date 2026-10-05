@@ -1,4 +1,9 @@
-# DSA_JAVA
+# DSA-Learning 
+Refer this Notion Article for the [Python DSA](https://app.notion.com/p/DSA-3dcb64eb376780019e4ae1b7b9233df5?source=copy_link)
+
+
+
+
 All the dsa questions with answers in java in detailed manner
 
 ## [Arrays](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/article/NzA4Mg%3D%3D)
@@ -82,3 +87,56 @@ All the dsa questions with answers in java in detailed manner
 
 ## [Graph]
 ### Patterns
+- Graph representation: adjacency list for sparse graphs; matrix for dense graphs or constant-time edge checks.
+- BFS: unweighted shortest paths, level traversal, multi-source BFS, and grid distance.
+- DFS: connectivity, components, path exploration, and cycle detection.
+- Topological sort: Kahn's algorithm or DFS postorder for DAG ordering and dependency problems.
+- Weighted shortest path: Dijkstra for nonnegative weights; Bellman-Ford when negative edges are allowed.
+- Connectivity and minimum spanning tree: Union-Find, Kruskal, and Prim.
+- Bipartite checks, directed/undirected cycle detection, and disconnected components.
+
+## [Matrix](Java/src/Matrix)
+### Patterns
+- Row/column traversal, boundary simulation, and spiral traversal.
+- Search in row/column-sorted matrices using staircase search or binary search by row.
+- In-place transpose/rotation for square matrices.
+- Grid-as-graph: flood fill, connected components, BFS shortest path, and multi-source BFS.
+
+## [Queue](Java/src/Queue)
+### Patterns
+- FIFO queue for BFS and level-order traversal; circular array queue for bounded storage.
+- Deque for sliding-window maximum/minimum and processing at both ends.
+- Monotonic deque for maintaining a moving extremum in amortized O(1) per element.
+- Queue simulation, producer/consumer ordering, and breadth-first state exploration.
+
+## [Recursion](Java/src/Recursion)
+### Patterns
+- Define the state, base case, progress measure, and return contract before recursing.
+- Backtracking: choose, explore, unchoose; subsets, combinations, permutations, and constraint search.
+- Pruning and duplicate elimination for search-space reduction.
+- Memoization when separate paths reach the same state; compare recursion depth with iterative alternatives.
+
+## [Math](Java/src/Math)
+### Patterns
+- GCD/LCM, divisibility, prime checks, and Sieve of Eratosthenes.
+- Fast exponentiation, modular arithmetic, and overflow-safe multiplication considerations.
+- Digit decomposition, palindrome numbers, factorial trailing zeroes, and integer square root.
+- Combinatorics and counting arguments; validate boundary values such as 0, 1, and negatives.
+
+## [Tree](Java/src/Tree)
+### Patterns
+- DFS traversals and BFS level order; iterative traversals when recursion depth is unsafe.
+- Bottom-up postorder summaries for height, balance, diameter, and subtree properties.
+- Lowest common ancestor, root-to-leaf paths, and path-sum variants.
+- BST ordering invariants, rank/kth-element queries, and balanced-tree concepts.
+
+## [Java Basics](Java/src/JavaBasics)
+### Interview foundations
+- Variables, primitive/reference types, operators, branching, and loop invariants.
+- Method contracts, parameter passing, access modifiers, and class/member scope.
+- Arrays and strings: bounds, mutability, equality, and common library operations.
+- Complexity analysis, integer overflow, null handling, and choosing suitable collections.
+
+## Python DSA guide
+
+The [Python DSA Mastery Notes](Python/README.md) contain expanded templates and coverage for arrays, two pointers, sliding windows, prefix sums, hashing, matrices, stacks, linked lists, trees, heaps, graphs, backtracking, greedy algorithms, dynamic programming, intervals, binary search, tries, bit manipulation, Union-Find, string algorithms, range-query structures, design problems, and math.
